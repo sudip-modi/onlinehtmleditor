@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="editor-menu">
+      <button class="btn btn-dark">Dark Mode</button>
+      <button class="btn btn-light">Light Mode</button>
+      <button class="btn btn-run"><i class="fa fa-play"></i>Run</button>
+
+      <div class="live">
+        <label for="live">Live-</label>
+        <input type="checkbox" id="live" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="left">
+        <div class="editor" contenteditable>Write your code</div>
+      </div>
+      <div class="bar" title="click and drag"></div>
+      <div class="right">
+        <iframe class="display" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <script src="main.js" async defer></script>
+  </body>
+</html>
