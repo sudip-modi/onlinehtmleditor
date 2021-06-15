@@ -1,3 +1,5 @@
+Live Link: https://infallible-brattain-4ad6c7.netlify.app/
+
 This is a online html editor based on the w3schools.com editor.
 
 Creating this project will teach you the basics of some markup, css and javascript. It will also give yoou an idea of how online editors are built.
