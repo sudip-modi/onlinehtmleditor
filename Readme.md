@@ -1,4 +1,4 @@
-Live Link: https://infallible-brattain-4ad6c7.netlify.app/
+Live Link: https://modi-web-editor.netlify.app/
 
 This is a online html editor based on the w3schools.com editor.
 
